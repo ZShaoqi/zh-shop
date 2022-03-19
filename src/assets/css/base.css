@@ -1,0 +1,8 @@
+@import url("./reset.css");
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

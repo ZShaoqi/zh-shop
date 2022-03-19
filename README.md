@@ -1,24 +1,22 @@
-# z-shop
+## 项目结构
+App
+  |--首页
+  |--搜索
+  |--订单
+  |--我的
 
-## Project setup
 ```
-npm install
+组件结构
+  |--components
+     |--FooterGuide 底部导航
+        |--FooterGuide.vue
+  |--pages
+      |--Home
+        |--Home.vue
+      |--Search
+        |--Search.vue
+     |--Order
+        |--Order.vue
+     |--Mine
+        |--Mine.vue
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
